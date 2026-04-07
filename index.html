@@ -3,87 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário De Adoção</title>
 </head>
 
 <body>
-    
-    <h1>Formulário de Adoção</h1>
 
-   <form id="formulario_adocao">
+    <header>
+        <nav>
 
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" placeholder="Digite seu nome">
-    <br>
+            <h1>Formulário de Adoção</h1>
 
+        </nav>
+    </header>
 
-    <label for="email">Email:</label>
-    <input type="text" id="email" placeholder="Digite seu email">
-    <br>
+    <form id="formulario_adocao">
 
-
-    <label for="telefone">Telefone:</label>
-    <input type="text" id="telefone" placeholder="Digite seu telefone">
-    <br>
-
-    <label for="cpf">CPF:</label>
-    <input type="text" id="cpf" placeholder="Digite seu CPF">
-    <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <br>
 
 
-    <label for="idade">Idade:</label>
-    <input type="text" id="idade" placeholder="Digite sua idade">
-    <br>
-
-    <label for="cidade">Cidade:</label>
-    <input type="text" id="cidade" placeholder="Digite sua cidade">
-    <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <br>
 
 
-    <label for="moradia">Moradia:</label>
-    <select name="moradia" id="moradia">
-        <option value=""> Selecione</option>
-        <option value="casa">Casa</option>
-        <option value="apartamento">Apartamento</option>
-    </select>
-    <br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" placeholder="Digite seu telefone">
+        <br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="Digite seu CPF">
+        <br>
 
 
-    <label for="quintal">Possui Quintal?</label>
-    <input type="radio" name="quintal" value="sim">Sim
-    <input type="radio" name="quintal" value="nao">Não
-    <br>
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" placeholder="Digite sua idade">
+        <br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" placeholder="Digite sua cidade">
+        <br>
 
 
-     <label for="teve_pet">Já teve pet antes?</label>
-    <input type="radio" name="teve_pet" value="sim">Sim
-    <input type="radio" name="teve_pet" value="nao">Não
-    <br>
+        <label for="moradia">Moradia:</label>
+        <select name="moradia" id="moradia">
+            <option value=""> Selecione</option>
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+        </select>
+        <br>
 
 
-     <label for="horas">Quantas horas o animal ficará sozinho por dia:</label>
-    <input type="text" id="horas" placeholder="Digite as horas">
-    <br>
+        <label for="quintal">Possui Quintal?</label>
+        <input type="radio" name="quintal" value="sim">Sim
+        <input type="radio" name="quintal" value="nao">Não
+        <br>
 
 
-    <label for="motivo">Motivo da adoção:</label>
-    <br>
-    <textarea id="motivo" name="motivo" rows="10" cols="40"></textarea>
-    <br>
-
-    
-    <label for="termo">Aceite o termo de responsabilidade</label>
-    <input type="checkbox" id="termo" name="termo" value="termo">
-    <br>
+        <label for="teve_pet">Já teve pet antes?</label>
+        <input type="radio" name="teve_pet" value="sim">Sim
+        <input type="radio" name="teve_pet" value="nao">Não
+        <br>
 
 
+        <label for="horas">Quantas horas o animal ficará sozinho por dia:</label>
+        <input type="text" id="horas" placeholder="Digite as horas">
+        <br>
+
+
+        <label for="motivo">Motivo da adoção:</label>
+        <br>
+        <textarea id="motivo" name="motivo" rows="3" cols="40"></textarea>
+        <br>
+
+
+        <label for="termo">Aceite o termo de responsabilidade</label>
+        <input type="checkbox" id="termo" name="termo" value="termo">
+        <br>
 
 
 
 
-    <button type="submit">Enviar</button>
 
-   </form>
+
+        <button type="submit">Enviar</button>
+
+    </form>
 
 
 
@@ -96,4 +103,5 @@
 
     <script src=""></script>
 </body>
+
 </html>
